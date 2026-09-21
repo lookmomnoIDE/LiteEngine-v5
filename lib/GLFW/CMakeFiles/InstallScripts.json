@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/projects/LiteEngineV005/lib/GLFW/cmake_install.cmake",
+		"C:/projects/LiteEngineV005/lib/GLFW/src/cmake_install.cmake",
+		"C:/projects/LiteEngineV005/lib/GLFW/examples/cmake_install.cmake",
+		"C:/projects/LiteEngineV005/lib/GLFW/tests/cmake_install.cmake",
+		"C:/projects/LiteEngineV005/lib/GLFW/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

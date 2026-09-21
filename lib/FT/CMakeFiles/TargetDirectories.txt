@@ -1,0 +1,9 @@
+C:/projects/LiteEngineV005/lib/FT/CMakeFiles/freetype.dir
+C:/projects/LiteEngineV005/lib/FT/CMakeFiles/package.dir
+C:/projects/LiteEngineV005/lib/FT/CMakeFiles/package_source.dir
+C:/projects/LiteEngineV005/lib/FT/CMakeFiles/edit_cache.dir
+C:/projects/LiteEngineV005/lib/FT/CMakeFiles/rebuild_cache.dir
+C:/projects/LiteEngineV005/lib/FT/CMakeFiles/list_install_components.dir
+C:/projects/LiteEngineV005/lib/FT/CMakeFiles/install.dir
+C:/projects/LiteEngineV005/lib/FT/CMakeFiles/install/local.dir
+C:/projects/LiteEngineV005/lib/FT/CMakeFiles/install/strip.dir

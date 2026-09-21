@@ -1,0 +1,1 @@
+ -lgdi32 -ldwmapi -limm32 C:/projects/LiteEngineV005/lib/GLFW/src/libglfw3.a C:/projects/LiteEngineV005/lib/MA/libminiaudio.a C:/projects/LiteEngineV005/lib/FT/libfreetype.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
