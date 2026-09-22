@@ -2,6 +2,9 @@
 #define OBJECT_H
 
 #include <glm.hpp>
+#include <vector>
+#include <string>
+
 #include "Indices.h"
 #include "Vertices.h"
 #include "VertexArrayObject.h"
@@ -11,7 +14,7 @@
 
 struct Material
 {
-	Shader* shader;
+	std::string shader = "";
 	Texture* albedo;
 	//glm::vec3 tint;
 };
@@ -19,12 +22,15 @@ struct Material
 
 struct Object
 {
-	VertexArrayObject m_VAO;
-	glm::mat4 m_transform;
+	glm::vec3 position;
+	float angle;
+	glm::vec3 axis;
+
+	VertexArrayObject m_VAO = 0;
 	Material m_material;
 	Vertices m_mesh;
 	Indices m_indices;
-	unsigned int m_vData[];
+	std::vector<unsigned int> m_vData;
 	unsigned int m_vCount;
 };
 #endif
