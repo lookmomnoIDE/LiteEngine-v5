@@ -2,10 +2,15 @@
 #define GLFW_WINDOW_H
 
 #include "window.h"
-#include <GLFW/glfw3.h>
-#include <glm/glm.hpp>
+#include "Engine.h"
+#include <glad/glad.h>
+#include <stdexcept>
+#include <glfw3.h>
+#include <glm.hpp>
 #include <functional>
 #include <memory>
+#include <iostream>
+
 
 // Add these two to the Window base class in window.h so callers never see GLFW:
 //
@@ -16,8 +21,7 @@
 class GLFWWindowImpl : public Window
 {
     GLFWwindow*   m_handle = nullptr;
-    InputCallback m_onInput;
-
+    Engine* m_engine = nullptr;
 public:
     explicit GLFWWindowImpl(const WindowConfig& cfg);
     ~GLFWWindowImpl() override;
@@ -28,9 +32,8 @@ public:
     bool PollEvents() override;                 // false once the window should close
     void SwapBuffers() override;
     glm::ivec2 FramebufferSize() const override;
-
-    void SetInputCallback(InputCallback cb) override { m_onInput = std::move(cb); }
-    glm::dvec2 MousePosition() const override;
+    glm::dvec2 MousePosition() const;
+    void setEnginePtr(Engine* engine);
 
 private:
     static GLFWWindowImpl* From(GLFWwindow* w);
@@ -41,6 +44,6 @@ private:
     static void OnFramebufferSize(GLFWwindow* w, int width, int height);
 };
 
-std::unique_ptr<Window> CreateWindow(const WindowConfig& cfg);
+Window* CreateWindow(const WindowConfig& cfg);
 
 #endif

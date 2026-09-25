@@ -1,14 +1,14 @@
 #include "glfw_window.h"
 #include "renderer.h"
 #include "Engine.h"
-#define STB_IMAGE_IMPLEMENTATION
-#include <stb_image.h>
 
 
+unsigned int SCR_WIDTH = 1280;
+unsigned int SCR_HEIGHT = 720;
 int main() 
 {
-    auto window   = createWindow({1280, 720, "engine"});
-    auto renderer = createRenderDevice(*window);
-    Engine engine(*window, *renderer);
+    Window* window   = CreateWindow({SCR_WIDTH, SCR_HEIGHT, "engine"});
+    Renderer* renderer = CreateRenderDevice(window);
+    Engine engine(window, renderer);
     engine.run();
 }

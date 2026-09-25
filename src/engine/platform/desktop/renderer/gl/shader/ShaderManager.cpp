@@ -8,7 +8,7 @@ Shader* ShaderMan::get(std::string name)
 
 void ShaderMan::set(std::string name)
 {
-	if(m_currentShader == name) break;
+	if(m_currentShader == name) return;
 	else
 	{
 		m_shaders[name]->use();
@@ -17,9 +17,9 @@ void ShaderMan::set(std::string name)
 }
 
 
-Shader* ShaderMan::add(std::string name, std::string vertexPath, std::string fragmentPath)
+Shader* ShaderMan::add(std::string name, std::string fragmentPath, std::string vertexPath)
 {
-	Shader* shader = new Shader(vertexPath, fragmentPath);
+	Shader* shader = new Shader(fragmentPath, vertexPath);
 	m_shaders[name] = shader;
 	return shader;
 }

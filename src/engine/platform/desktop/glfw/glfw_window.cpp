@@ -1,6 +1,5 @@
 #include "glfw_window.h"
-#include <glad/glad.h>
-#include <stdexcept>
+
 
 GLFWWindowImpl::GLFWWindowImpl(const WindowConfig& cfg)
 {
@@ -12,7 +11,7 @@ GLFWWindowImpl::GLFWWindowImpl(const WindowConfig& cfg)
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_DEBUG_CONTEXT, GL_TRUE); // must be before glfwCreateWindow
 
-    m_handle = glfwCreateWindow(cfg.width, cfg.height, cfg.title, nullptr, nullptr);
+    m_handle = glfwCreateWindow(cfg.width, cfg.height, cfg.title.c_str(), nullptr, nullptr);
     if (!m_handle)
         throw std::runtime_error("glfwCreateWindow failed");
 
@@ -55,6 +54,7 @@ bool GLFWWindowImpl::PollEvents()
 
 void GLFWWindowImpl::SwapBuffers()
 {
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glfwSwapBuffers(m_handle);
 }
 
@@ -79,17 +79,32 @@ GLFWWindowImpl* GLFWWindowImpl::From(GLFWwindow* w)
     return static_cast<GLFWWindowImpl*>(glfwGetWindowUserPointer(w));
 }
 
-void GLFWWindowImpl::OnKey(GLFWwindow* w, int key, int, int action, int)
+void GLFWWindowImpl::OnKey(GLFWwindow* w, int key, int button, int action, int)
 {
-    if (action == GLFW_REPEAT) return;              // only START / END, no repeats
-    if (auto* self = From(w); self && self->m_onInput)
-        self->m_onInput(key, action == GLFW_PRESS);
+    auto scene = From(w)->m_engine->currentScene();
+    auto am = scene->getAM();
+    if(am.find(button) == am.end())
+    {
+        std::cout << "Action Not found!" << std::endl;
+        return;
+    }
+    const Type actionType = (action == GLFW_PRESS) ? Type::START : (action == GLFW_REPEAT) ? Type::NONE : Type::STOP;
+    Action a(am.at(button), actionType);
+    scene->doAction(a);
 }
 
 void GLFWWindowImpl::OnMouseButton(GLFWwindow* w, int button, int action, int)
 {
-    if (auto* self = From(w); self && self->m_onInput)
-        self->m_onInput(button, action == GLFW_PRESS);
+    auto scene = From(w)->m_engine->currentScene();
+    auto am = scene->getAM();
+    if(am.find(button) == am.end())
+    {
+        std::cout << "Action Not found!" << std::endl;
+        return;
+    }
+    const Type actionType = (action == GLFW_PRESS) ? Type::START : (action == GLFW_REPEAT) ? Type::NONE : Type::STOP;
+    Action a(am.at(button), actionType);
+    scene->doAction(a);
 }
 
 void GLFWWindowImpl::OnFramebufferSize(GLFWwindow*, int width, int height)
@@ -97,7 +112,15 @@ void GLFWWindowImpl::OnFramebufferSize(GLFWwindow*, int width, int height)
     glViewport(0, 0, width, height);
 }
 
-std::unique_ptr<Window> CreateWindow(const WindowConfig& cfg)
+
+void GLFWWindowImpl::setEnginePtr(Engine* engine)
 {
-    return std::make_unique<GLFWWindowImpl>(cfg);
+    m_engine = engine;
+}
+
+
+Window* CreateWindow(const WindowConfig& cfg)
+{
+    Window* window = new GLFWWindowImpl(cfg);
+    return window;
 }

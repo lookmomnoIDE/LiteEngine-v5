@@ -86,31 +86,150 @@ CMakeFiles/LiteEngineV005.dir/ext/GLAD/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LiteEngineV005.dir/ext/GLAD/glad/src/glad.c.s"
 	C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\projects\LiteEngineV005\ext\GLAD\glad\src\glad.c -o CMakeFiles\LiteEngineV005.dir\ext\GLAD\glad\src\glad.c.s
 
-CMakeFiles/LiteEngineV005.dir/src/main.cpp.obj: CMakeFiles/LiteEngineV005.dir/flags.make
-CMakeFiles/LiteEngineV005.dir/src/main.cpp.obj: CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
-CMakeFiles/LiteEngineV005.dir/src/main.cpp.obj: C:/projects/LiteEngineV005/src/main.cpp
-CMakeFiles/LiteEngineV005.dir/src/main.cpp.obj: CMakeFiles/LiteEngineV005.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LiteEngineV005.dir/src/main.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LiteEngineV005.dir/src/main.cpp.obj -MF CMakeFiles\LiteEngineV005.dir\src\main.cpp.obj.d -o CMakeFiles\LiteEngineV005.dir\src\main.cpp.obj -c C:\projects\LiteEngineV005\src\main.cpp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.obj: CMakeFiles/LiteEngineV005.dir/flags.make
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.obj: CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.obj: C:/projects/LiteEngineV005/src/engine/platform/desktop/main.cpp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.obj: CMakeFiles/LiteEngineV005.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.obj -MF CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\main.cpp.obj.d -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\main.cpp.obj -c C:\projects\LiteEngineV005\src\engine\platform\desktop\main.cpp
 
-CMakeFiles/LiteEngineV005.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LiteEngineV005.dir/src/main.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\LiteEngineV005\src\main.cpp > CMakeFiles\LiteEngineV005.dir\src\main.cpp.i
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\LiteEngineV005\src\engine\platform\desktop\main.cpp > CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\main.cpp.i
 
-CMakeFiles/LiteEngineV005.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LiteEngineV005.dir/src/main.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\LiteEngineV005\src\main.cpp -o CMakeFiles\LiteEngineV005.dir\src\main.cpp.s
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\LiteEngineV005\src\engine\platform\desktop\main.cpp -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\main.cpp.s
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.obj: CMakeFiles/LiteEngineV005.dir/flags.make
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.obj: CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.obj: C:/projects/LiteEngineV005/src/engine/platform/desktop/renderer/gl/renderer.cpp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.obj: CMakeFiles/LiteEngineV005.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.obj -MF CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\renderer.cpp.obj.d -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\renderer.cpp.obj -c C:\projects\LiteEngineV005\src\engine\platform\desktop\renderer\gl\renderer.cpp
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\LiteEngineV005\src\engine\platform\desktop\renderer\gl\renderer.cpp > CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\renderer.cpp.i
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\LiteEngineV005\src\engine\platform\desktop\renderer\gl\renderer.cpp -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\renderer.cpp.s
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj: CMakeFiles/LiteEngineV005.dir/flags.make
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj: CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj: C:/projects/LiteEngineV005/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj: CMakeFiles/LiteEngineV005.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj -MF CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\shader\ShaderManager.cpp.obj.d -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\shader\ShaderManager.cpp.obj -c C:\projects\LiteEngineV005\src\engine\platform\desktop\renderer\gl\shader\ShaderManager.cpp
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\LiteEngineV005\src\engine\platform\desktop\renderer\gl\shader\ShaderManager.cpp > CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\shader\ShaderManager.cpp.i
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\LiteEngineV005\src\engine\platform\desktop\renderer\gl\shader\ShaderManager.cpp -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\shader\ShaderManager.cpp.s
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj: CMakeFiles/LiteEngineV005.dir/flags.make
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj: CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj: C:/projects/LiteEngineV005/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj: CMakeFiles/LiteEngineV005.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj -MF CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\texture\TextureManager.cpp.obj.d -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\texture\TextureManager.cpp.obj -c C:\projects\LiteEngineV005\src\engine\platform\desktop\renderer\gl\texture\TextureManager.cpp
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\LiteEngineV005\src\engine\platform\desktop\renderer\gl\texture\TextureManager.cpp > CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\texture\TextureManager.cpp.i
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\LiteEngineV005\src\engine\platform\desktop\renderer\gl\texture\TextureManager.cpp -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\renderer\gl\texture\TextureManager.cpp.s
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.obj: CMakeFiles/LiteEngineV005.dir/flags.make
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.obj: CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.obj: C:/projects/LiteEngineV005/src/engine/platform/desktop/glfw/glfw_window.cpp
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.obj: CMakeFiles/LiteEngineV005.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.obj -MF CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\glfw\glfw_window.cpp.obj.d -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\glfw\glfw_window.cpp.obj -c C:\projects\LiteEngineV005\src\engine\platform\desktop\glfw\glfw_window.cpp
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\LiteEngineV005\src\engine\platform\desktop\glfw\glfw_window.cpp > CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\glfw\glfw_window.cpp.i
+
+CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\LiteEngineV005\src\engine\platform\desktop\glfw\glfw_window.cpp -o CMakeFiles\LiteEngineV005.dir\src\engine\platform\desktop\glfw\glfw_window.cpp.s
+
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.obj: CMakeFiles/LiteEngineV005.dir/flags.make
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.obj: CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.obj: C:/projects/LiteEngineV005/src/engine/CORE/Engine.cpp
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.obj: CMakeFiles/LiteEngineV005.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.obj -MF CMakeFiles\LiteEngineV005.dir\src\engine\CORE\Engine.cpp.obj.d -o CMakeFiles\LiteEngineV005.dir\src\engine\CORE\Engine.cpp.obj -c C:\projects\LiteEngineV005\src\engine\CORE\Engine.cpp
+
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\LiteEngineV005\src\engine\CORE\Engine.cpp > CMakeFiles\LiteEngineV005.dir\src\engine\CORE\Engine.cpp.i
+
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\LiteEngineV005\src\engine\CORE\Engine.cpp -o CMakeFiles\LiteEngineV005.dir\src\engine\CORE\Engine.cpp.s
+
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.obj: CMakeFiles/LiteEngineV005.dir/flags.make
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.obj: CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.obj: C:/projects/LiteEngineV005/src/engine/CORE/scene/Scene.cpp
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.obj: CMakeFiles/LiteEngineV005.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.obj -MF CMakeFiles\LiteEngineV005.dir\src\engine\CORE\scene\Scene.cpp.obj.d -o CMakeFiles\LiteEngineV005.dir\src\engine\CORE\scene\Scene.cpp.obj -c C:\projects\LiteEngineV005\src\engine\CORE\scene\Scene.cpp
+
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\LiteEngineV005\src\engine\CORE\scene\Scene.cpp > CMakeFiles\LiteEngineV005.dir\src\engine\CORE\scene\Scene.cpp.i
+
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\LiteEngineV005\src\engine\CORE\scene\Scene.cpp -o CMakeFiles\LiteEngineV005.dir\src\engine\CORE\scene\Scene.cpp.s
+
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.obj: CMakeFiles/LiteEngineV005.dir/flags.make
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.obj: CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.obj: C:/projects/LiteEngineV005/src/engine/CORE/scene/Scene_test.cpp
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.obj: CMakeFiles/LiteEngineV005.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.obj -MF CMakeFiles\LiteEngineV005.dir\src\engine\CORE\scene\Scene_test.cpp.obj.d -o CMakeFiles\LiteEngineV005.dir\src\engine\CORE\scene\Scene_test.cpp.obj -c C:\projects\LiteEngineV005\src\engine\CORE\scene\Scene_test.cpp
+
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\projects\LiteEngineV005\src\engine\CORE\scene\Scene_test.cpp > CMakeFiles\LiteEngineV005.dir\src\engine\CORE\scene\Scene_test.cpp.i
+
+CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\projects\LiteEngineV005\src\engine\CORE\scene\Scene_test.cpp -o CMakeFiles\LiteEngineV005.dir\src\engine\CORE\scene\Scene_test.cpp.s
 
 # Object files for target LiteEngineV005
 LiteEngineV005_OBJECTS = \
 "CMakeFiles/LiteEngineV005.dir/ext/GLAD/glad/src/glad.c.obj" \
-"CMakeFiles/LiteEngineV005.dir/src/main.cpp.obj"
+"CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.obj" \
+"CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.obj" \
+"CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj" \
+"CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj" \
+"CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.obj" \
+"CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.obj" \
+"CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.obj" \
+"CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.obj"
 
 # External object files for target LiteEngineV005
 LiteEngineV005_EXTERNAL_OBJECTS =
 
 LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/ext/GLAD/glad/src/glad.c.obj
-LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/src/main.cpp.obj
+LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.obj
+LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.obj
+LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj
+LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj
+LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.obj
+LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.obj
+LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.obj
+LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.obj
 LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/build.make
 LiteEngineV005.exe: C:/projects/LiteEngineV005/lib/GLFW/src/libglfw3.a
 LiteEngineV005.exe: C:/projects/LiteEngineV005/lib/MA/libminiaudio.a
@@ -118,7 +237,7 @@ LiteEngineV005.exe: C:/projects/LiteEngineV005/lib/FT/libfreetype.a
 LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/linkLibs.rsp
 LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/objects1.rsp
 LiteEngineV005.exe: CMakeFiles/LiteEngineV005.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable LiteEngineV005.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable LiteEngineV005.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LiteEngineV005.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -13,5 +13,5 @@ CXX_DEFINES = -DPROJECT_ROOT=\"C:/projects/LiteEngineV005\"
 
 CXX_INCLUDES = @CMakeFiles/LiteEngineV005.dir/includes_CXX.rsp
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=gnu++20
 

@@ -1,7 +1,10 @@
 #ifndef TEXTURE_H
 #define TEXTURE_H
 
+#define STB_IMAGE_IMPLEMENTATION
+#include <stb_image.h>
 #include <string>
+#include <iostream>
 #include "filesystem.h"
 #include <glad/glad.h>
 #include <glfw3.h>
@@ -23,13 +26,15 @@ enum class Filters
     COUNT
 };
 
+
 struct TextureOptions 
 {
-    Wraps wrap = Wraps::REPEATopts.;
+    Wraps wrap = Wraps::REPEAT;
     Filters filter = Filters::NEAREST;
     bool flip = true;
 };
-opt.
+
+
 constexpr GLenum texWrap(Wraps param)
 {
     switch(param)
@@ -47,6 +52,7 @@ constexpr GLenum texWrap(Wraps param)
             return GL_REPEAT;
     }
 }
+
 
 constexpr GLenum texFilter(Filters param)
 {
@@ -66,8 +72,6 @@ constexpr GLenum texFilter(Filters param)
 class Texture
 {
     unsigned int m_texture;
-
-
 public:
     Texture(std::string path, TextureOptions opts = {})
     {
@@ -76,13 +80,16 @@ public:
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, texWrap(opts.wrap));   // set texture wrapping to GL_REPEAT (default wrapping method)
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, texWrap(opts.wrap));
         // set texture filtering parameters
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, texFilter(opt.filter));
-        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, texFilter(opt.filter));
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, texFilter(opts.filter));
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, texFilter(opts.filter));
         loadImage(path, opts.flip);
-
     }
 
-    ~Texture() { glDeleteTextures(1, &m_texture); }
+
+    ~Texture() 
+    {
+        glDeleteTextures(1, &m_texture);
+    }
 
 
     void bind(unsigned int unit = 0)

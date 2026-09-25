@@ -5,19 +5,21 @@
 #include <vector>
 #include <string>
 
-#include "Indices.h"
 #include "Vertices.h"
+#include "Indices.h"
+//Todo: need to make buffer identifier platform agnostic or modify include logic.
+// will remain in place for testing.
 #include "VertexArrayObject.h"
 #include "Texture.h"
-#include "Shader.h"
 
 
 struct Material
 {
 	std::string shader = "";
-	Texture* albedo;
+	eTexture albedo = eTexture::ALBEDO;
 	//glm::vec3 tint;
 };
+
 
 
 struct Object
@@ -26,9 +28,9 @@ struct Object
 	float angle;
 	glm::vec3 axis;
 
-	VertexArrayObject m_VAO = 0;
+	VertexArrayObject m_VAO;
 	Material m_material;
-	Vertices m_mesh;
+	Vertices<float> m_mesh;
 	Indices m_indices;
 	std::vector<unsigned int> m_vData;
 	unsigned int m_vCount;

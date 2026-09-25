@@ -159,29 +159,197 @@ ext/GLAD/glad/src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/ext/GLAD/glad/src/glad.c.s
 .PHONY : ext/GLAD/glad/src/glad.c.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/engine/CORE/Engine.obj: src/engine/CORE/Engine.cpp.obj
+.PHONY : src/engine/CORE/Engine.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/engine/CORE/Engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.obj
+.PHONY : src/engine/CORE/Engine.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/engine/CORE/Engine.i: src/engine/CORE/Engine.cpp.i
+.PHONY : src/engine/CORE/Engine.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/engine/CORE/Engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.i
+.PHONY : src/engine/CORE/Engine.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/engine/CORE/Engine.s: src/engine/CORE/Engine.cpp.s
+.PHONY : src/engine/CORE/Engine.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/engine/CORE/Engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/CORE/Engine.cpp.s
+.PHONY : src/engine/CORE/Engine.cpp.s
+
+src/engine/CORE/scene/Scene.obj: src/engine/CORE/scene/Scene.cpp.obj
+.PHONY : src/engine/CORE/scene/Scene.obj
+
+# target to build an object file
+src/engine/CORE/scene/Scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.obj
+.PHONY : src/engine/CORE/scene/Scene.cpp.obj
+
+src/engine/CORE/scene/Scene.i: src/engine/CORE/scene/Scene.cpp.i
+.PHONY : src/engine/CORE/scene/Scene.i
+
+# target to preprocess a source file
+src/engine/CORE/scene/Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.i
+.PHONY : src/engine/CORE/scene/Scene.cpp.i
+
+src/engine/CORE/scene/Scene.s: src/engine/CORE/scene/Scene.cpp.s
+.PHONY : src/engine/CORE/scene/Scene.s
+
+# target to generate assembly for a file
+src/engine/CORE/scene/Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene.cpp.s
+.PHONY : src/engine/CORE/scene/Scene.cpp.s
+
+src/engine/CORE/scene/Scene_test.obj: src/engine/CORE/scene/Scene_test.cpp.obj
+.PHONY : src/engine/CORE/scene/Scene_test.obj
+
+# target to build an object file
+src/engine/CORE/scene/Scene_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.obj
+.PHONY : src/engine/CORE/scene/Scene_test.cpp.obj
+
+src/engine/CORE/scene/Scene_test.i: src/engine/CORE/scene/Scene_test.cpp.i
+.PHONY : src/engine/CORE/scene/Scene_test.i
+
+# target to preprocess a source file
+src/engine/CORE/scene/Scene_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.i
+.PHONY : src/engine/CORE/scene/Scene_test.cpp.i
+
+src/engine/CORE/scene/Scene_test.s: src/engine/CORE/scene/Scene_test.cpp.s
+.PHONY : src/engine/CORE/scene/Scene_test.s
+
+# target to generate assembly for a file
+src/engine/CORE/scene/Scene_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/CORE/scene/Scene_test.cpp.s
+.PHONY : src/engine/CORE/scene/Scene_test.cpp.s
+
+src/engine/platform/desktop/glfw/glfw_window.obj: src/engine/platform/desktop/glfw/glfw_window.cpp.obj
+.PHONY : src/engine/platform/desktop/glfw/glfw_window.obj
+
+# target to build an object file
+src/engine/platform/desktop/glfw/glfw_window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.obj
+.PHONY : src/engine/platform/desktop/glfw/glfw_window.cpp.obj
+
+src/engine/platform/desktop/glfw/glfw_window.i: src/engine/platform/desktop/glfw/glfw_window.cpp.i
+.PHONY : src/engine/platform/desktop/glfw/glfw_window.i
+
+# target to preprocess a source file
+src/engine/platform/desktop/glfw/glfw_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.i
+.PHONY : src/engine/platform/desktop/glfw/glfw_window.cpp.i
+
+src/engine/platform/desktop/glfw/glfw_window.s: src/engine/platform/desktop/glfw/glfw_window.cpp.s
+.PHONY : src/engine/platform/desktop/glfw/glfw_window.s
+
+# target to generate assembly for a file
+src/engine/platform/desktop/glfw/glfw_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/glfw/glfw_window.cpp.s
+.PHONY : src/engine/platform/desktop/glfw/glfw_window.cpp.s
+
+src/engine/platform/desktop/main.obj: src/engine/platform/desktop/main.cpp.obj
+.PHONY : src/engine/platform/desktop/main.obj
+
+# target to build an object file
+src/engine/platform/desktop/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.obj
+.PHONY : src/engine/platform/desktop/main.cpp.obj
+
+src/engine/platform/desktop/main.i: src/engine/platform/desktop/main.cpp.i
+.PHONY : src/engine/platform/desktop/main.i
+
+# target to preprocess a source file
+src/engine/platform/desktop/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.i
+.PHONY : src/engine/platform/desktop/main.cpp.i
+
+src/engine/platform/desktop/main.s: src/engine/platform/desktop/main.cpp.s
+.PHONY : src/engine/platform/desktop/main.s
+
+# target to generate assembly for a file
+src/engine/platform/desktop/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/main.cpp.s
+.PHONY : src/engine/platform/desktop/main.cpp.s
+
+src/engine/platform/desktop/renderer/gl/renderer.obj: src/engine/platform/desktop/renderer/gl/renderer.cpp.obj
+.PHONY : src/engine/platform/desktop/renderer/gl/renderer.obj
+
+# target to build an object file
+src/engine/platform/desktop/renderer/gl/renderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.obj
+.PHONY : src/engine/platform/desktop/renderer/gl/renderer.cpp.obj
+
+src/engine/platform/desktop/renderer/gl/renderer.i: src/engine/platform/desktop/renderer/gl/renderer.cpp.i
+.PHONY : src/engine/platform/desktop/renderer/gl/renderer.i
+
+# target to preprocess a source file
+src/engine/platform/desktop/renderer/gl/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.i
+.PHONY : src/engine/platform/desktop/renderer/gl/renderer.cpp.i
+
+src/engine/platform/desktop/renderer/gl/renderer.s: src/engine/platform/desktop/renderer/gl/renderer.cpp.s
+.PHONY : src/engine/platform/desktop/renderer/gl/renderer.s
+
+# target to generate assembly for a file
+src/engine/platform/desktop/renderer/gl/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/renderer.cpp.s
+.PHONY : src/engine/platform/desktop/renderer/gl/renderer.cpp.s
+
+src/engine/platform/desktop/renderer/gl/shader/ShaderManager.obj: src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj
+.PHONY : src/engine/platform/desktop/renderer/gl/shader/ShaderManager.obj
+
+# target to build an object file
+src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj
+.PHONY : src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.obj
+
+src/engine/platform/desktop/renderer/gl/shader/ShaderManager.i: src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.i
+.PHONY : src/engine/platform/desktop/renderer/gl/shader/ShaderManager.i
+
+# target to preprocess a source file
+src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.i
+.PHONY : src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.i
+
+src/engine/platform/desktop/renderer/gl/shader/ShaderManager.s: src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.s
+.PHONY : src/engine/platform/desktop/renderer/gl/shader/ShaderManager.s
+
+# target to generate assembly for a file
+src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.s
+.PHONY : src/engine/platform/desktop/renderer/gl/shader/ShaderManager.cpp.s
+
+src/engine/platform/desktop/renderer/gl/texture/TextureManager.obj: src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj
+.PHONY : src/engine/platform/desktop/renderer/gl/texture/TextureManager.obj
+
+# target to build an object file
+src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj
+.PHONY : src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.obj
+
+src/engine/platform/desktop/renderer/gl/texture/TextureManager.i: src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.i
+.PHONY : src/engine/platform/desktop/renderer/gl/texture/TextureManager.i
+
+# target to preprocess a source file
+src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.i
+.PHONY : src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.i
+
+src/engine/platform/desktop/renderer/gl/texture/TextureManager.s: src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.s
+.PHONY : src/engine/platform/desktop/renderer/gl/texture/TextureManager.s
+
+# target to generate assembly for a file
+src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.s
+.PHONY : src/engine/platform/desktop/renderer/gl/texture/TextureManager.cpp.s
 
 # Help Target
 help:
@@ -196,9 +364,30 @@ help:
 	@echo ... ext/GLAD/glad/src/glad.obj
 	@echo ... ext/GLAD/glad/src/glad.i
 	@echo ... ext/GLAD/glad/src/glad.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... src/engine/CORE/Engine.obj
+	@echo ... src/engine/CORE/Engine.i
+	@echo ... src/engine/CORE/Engine.s
+	@echo ... src/engine/CORE/scene/Scene.obj
+	@echo ... src/engine/CORE/scene/Scene.i
+	@echo ... src/engine/CORE/scene/Scene.s
+	@echo ... src/engine/CORE/scene/Scene_test.obj
+	@echo ... src/engine/CORE/scene/Scene_test.i
+	@echo ... src/engine/CORE/scene/Scene_test.s
+	@echo ... src/engine/platform/desktop/glfw/glfw_window.obj
+	@echo ... src/engine/platform/desktop/glfw/glfw_window.i
+	@echo ... src/engine/platform/desktop/glfw/glfw_window.s
+	@echo ... src/engine/platform/desktop/main.obj
+	@echo ... src/engine/platform/desktop/main.i
+	@echo ... src/engine/platform/desktop/main.s
+	@echo ... src/engine/platform/desktop/renderer/gl/renderer.obj
+	@echo ... src/engine/platform/desktop/renderer/gl/renderer.i
+	@echo ... src/engine/platform/desktop/renderer/gl/renderer.s
+	@echo ... src/engine/platform/desktop/renderer/gl/shader/ShaderManager.obj
+	@echo ... src/engine/platform/desktop/renderer/gl/shader/ShaderManager.i
+	@echo ... src/engine/platform/desktop/renderer/gl/shader/ShaderManager.s
+	@echo ... src/engine/platform/desktop/renderer/gl/texture/TextureManager.obj
+	@echo ... src/engine/platform/desktop/renderer/gl/texture/TextureManager.i
+	@echo ... src/engine/platform/desktop/renderer/gl/texture/TextureManager.s
 .PHONY : help
 
 

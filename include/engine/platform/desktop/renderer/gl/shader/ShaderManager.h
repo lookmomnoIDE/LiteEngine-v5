@@ -28,7 +28,7 @@ public:
 	}
 	Shader* get(std::string name);
 	void 	set(std::string name);
-	Shader* add(std::string name, std::string vertexPath, std::string fragmentPath);
+	Shader* add(std::string name, std::string fragmentPath, std::string vertexPath);
 	void 	rem(std::string name);
 	
 

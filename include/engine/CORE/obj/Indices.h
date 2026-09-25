@@ -41,12 +41,6 @@ public:
 	}
 
 
-	size_t count() const
-	{
-		return m_indices.count();
-	}
-
-
 	size_t byteSize() const 
 	{ 
 		return m_indices.size() * sizeof(unsigned int);

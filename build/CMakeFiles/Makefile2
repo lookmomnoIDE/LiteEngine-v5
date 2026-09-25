@@ -84,12 +84,12 @@ clean: CMakeFiles/LiteEngineV005.dir/clean
 CMakeFiles/LiteEngineV005.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=1,2,3 "Built target LiteEngineV005"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target LiteEngineV005"
 .PHONY : CMakeFiles/LiteEngineV005.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LiteEngineV005.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\projects\LiteEngineV005\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\projects\LiteEngineV005\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/LiteEngineV005.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\projects\LiteEngineV005\build\CMakeFiles 0
 .PHONY : CMakeFiles/LiteEngineV005.dir/rule
@@ -101,7 +101,7 @@ LiteEngineV005: CMakeFiles/LiteEngineV005.dir/rule
 # codegen rule for target.
 CMakeFiles/LiteEngineV005.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LiteEngineV005.dir\build.make CMakeFiles/LiteEngineV005.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target LiteEngineV005"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\projects\LiteEngineV005\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target LiteEngineV005"
 .PHONY : CMakeFiles/LiteEngineV005.dir/codegen
 
 # clean rule for target.
